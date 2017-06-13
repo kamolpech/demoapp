@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>callservice</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container hearder">
+        <div class="row">
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10"><a class="text-uppercase navbar-brand" href="index.html" style="font-size:20px;">Request For Service </a></div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 pull-right display-table" style="height:50px;"><a href="index.html" class="display-cell" style="width:100%;"><i class="fa fa-angle-left pull-right" style="color:rgb(51,122,183);font-size:35px;"></i></a></div>
+        </div>
+    </div>
+    <div class="container content">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-sm-2">Dispatcher : </label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" name="to" value="Monthean  Seatang" readonly="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2">Customer : </label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" name="customer" value="INFINITY NETWORK SOLUTIONS CO., LTD." readonly="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2">Job Number : </label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" name="job_number" value="SR-2017-00108" readonly="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2">Descriptions : </label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" name="description" readonly="">service ip: 10.1.35.169 hard drive is full</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2">Status : </label>
+                <div class="col-sm-10">
+                    <select class="form-control" name="status">
+                        <option value="Pending" selected="">Pending</option>
+                        <option value="In Progress">In Progress</option>
+                        <option value="Completed">Completed</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-10 col-sm-offset-2">
+                    <div class="btn-group" role="group"><a class="btn btn-success" role="button" href="servicependingconfirm-a.html" style="width:100px;">Confirm </a></div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-10 col-sm-offset-2">
+                    <div class="btn-group" role="group"><a class="btn btn-primary" role="button" href="https://py.tgshub.com/chat" style="width:100px;"> CHAT</a>
+                        <button class="btn btn-info" type="button" id="btn-call" style="width:100px;" data-extension-number="9297" data-event-name="call">CALL </button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div id="googleMapIns" class="googlemap"></div>
+            </div>
+        </form>
+    </div>
+    <div class="container footer">
+        <footer class="hidden">
+            <p>© 2017, Tgs-Enterprise Network. All rights reserved. </p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/callmessage.js"></script>
+    <script src="assets/js/googlemap.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsMC8DpJKlhT00NTHaXE_CpvYxQvGnuXg&amp;callback=initMap"></script>
+</body>
+
+</html>

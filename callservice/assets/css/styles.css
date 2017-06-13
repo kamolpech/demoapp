@@ -1,0 +1,25 @@
+.googlemap {
+  width:100%;
+  min-height:200px;
+}
+
+.container.hearder {
+  border-bottom:#337ab7 4px solid;
+  margin-bottom:15px;
+}
+
+.list-group-item > .badge {
+  background-color:transparent;
+}
+
+.display-table {
+  display:table;
+  table-layout:fixed;
+}
+
+.display-cell {
+  display:table-cell;
+  vertical-align:middle;
+  float:none;
+}
+
