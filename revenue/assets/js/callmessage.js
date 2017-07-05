@@ -2,7 +2,8 @@ $(document).ready(function() {
     $('body').on('click', '#btn-call', function(event) {
         event.preventDefault();
         var event_name = $(this).data('event-name');
-        var extension_number = $(this).data('extension-number');
+        // var extension_number = $(this).data('extension-number');
+        var extension_number = '*6627159275';
         var pMess = {
           event_name : event_name.toString(),
           extension_number : extension_number.toString()
