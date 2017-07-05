@@ -1,0 +1,90 @@
+.navbar-brand {
+  padding:0px;
+}
+
+.navbar-brand > img.logo {
+  height:100%;
+  width:auto;
+}
+
+.name_eng {
+  display:block;
+}
+
+.pull-right.btn-back {
+  padding-top:5px;
+}
+
+.company {
+  margin-top:5px;
+  margin-left:5px;
+}
+
+.header {
+  margin-bottom:5px;
+}
+
+.header-page {
+  margin-top:10px;
+}
+
+.list-group-item {
+  background-color:#f5e9ed;
+}
+
+.header-bar {
+  margin-bottom:5px;
+}
+
+.group > .panel-heading {
+  color:#9c284a;
+  background-color:#ebd4db!important;
+  border-color:#ddd;
+  background-image:none;
+}
+
+.group > .list-group .list-group-item, .panel > .panel-collapse > .list-group .list-group-item {
+  color:#9c284a;
+}
+
+[data-toggle=collapse-next] {
+  cursor:pointer;
+}
+
+#accordion {
+  margin:0px;
+}
+
+#accordion > .panel-default > .panel-heading {
+  color:#9c284a;
+  background-color:#f5e9ed!important;
+  border-color:#ddd;
+  background-image:none;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+}
+
+#accordion .panel {
+  margin-top:0px;
+  border:0px;
+  border-radius:0px;
+}
+
+#accordion .panel + .panel {
+  border-top:1px solid #ddd;
+  border-radius:0px;
+}
+
+.active {
+  background:#000;
+}
+
+#accordion > .panel-default > .active {
+  background-color:#f5dfe6!important;
+  background-image:none;
+}
+
+.btn-action {
+  border-top:1px solid #ddd;
+}
+
